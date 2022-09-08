@@ -8,7 +8,7 @@
 // 5. Peek ( Get the value of the front of the queue without removing it)R
 // 6. Length (Returns the length of the queue)
 
-function createQueue() {
+export default function createQueue() {
   const queue = [];
 
   return {
