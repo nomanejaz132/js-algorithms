@@ -5,10 +5,10 @@
 // 2. Remove or Dequeue (Remove an element from the front of the queue)
 // 3. isEmpty (Check if the queue is empty)
 // 4. isFull (Check if the queue is full)
-// 5. Peek ( Get the value of the front of the queue without removing it)R
+// 5. Peek ( Get the value of the front of the queue without removing it)
 // 6. Length (Returns the length of the queue)
 
-export default function createQueue() {
+function createQueue() {
   const queue = [];
 
   return {
@@ -29,6 +29,8 @@ export default function createQueue() {
     },
   };
 }
+
+export default createQueue;
 
 const q = createQueue();
 console.log(q.isEmpty());
